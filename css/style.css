@@ -110,6 +110,14 @@ h6,
     transition: .5s;
 }
 
+.notsticky{
+  background-color: #ffffff;
+}
+
+.sticky-top.navbar-light .notsticky{
+  background-color: white;
+}
+
 .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 20px 0;
     color: var(--dark) !important;

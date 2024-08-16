@@ -28,7 +28,7 @@ function sendMessage(){
     var param={
         name: document.getElementById('firstName').value + ' '+ document.getElementById('lastName').value,
         email: document.getElementById('email').value,
-        subject: document.getElementById('subject').value,
+        phone: document.getElementById('phone').value,
         message: document.getElementById('message').value,
     }
 
@@ -41,7 +41,7 @@ function sendMessage(){
             document.getElementById('firstName').value =''
             document.getElementById('lastName').value =''
         document.getElementById('email').value=''
-        document.getElementById('subject').value=''
+        document.getElementById('phone').value=''
         document.getElementById('message').value=''
             alert("successfully submit details")
         }

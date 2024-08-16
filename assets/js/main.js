@@ -28,6 +28,12 @@ $(".tx-search-close").on("click", function (e) {
   $("body").removeClass("active");
   $('.body-overlay').removeClass('active');
 });
+$(".tx-modal-close").on("click", function (e) {
+  e.preventDefault();
+  $(".header-search-form-wrapper").removeClass("open");
+  $("body").removeClass("active");
+  $('.body-overlay').removeClass('active');
+});
 //========== SIDEBAR/SEARCH AREA ============= //
 
 //========== PROGRESS ACTIVE ENDS ============= //

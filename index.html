@@ -7,6 +7,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kerala Digital Park</title>
+  <meta name="description" content="Kerala Digital Park provides professional web development services in Kerala. We create responsive, user-friendly websites for businesses of all sizes. Whether you need an e-commerce site or a custom website, our team is here to help you succeed online.">
+
 
   <!--=====FAB ICON=======-->
   <link rel="shortcut icon" href="assets/img/logo1.png" type="image/x-icon">
@@ -46,16 +48,19 @@
   </div>
 </div> -->
   <!--===== PRELOADER ENDS =======-->
+<style>.paginacontainer, .progress-wrap {
+    display: none !important;
+}</style>
 
-  <!--===== PROGRESS STARTS=======-->
-  <div class="paginacontainer">
-    <div class="progress-wrap">
-      <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-      </svg>
-    </div>
+<!--===== PROGRESS STARTS=======-->
+<div class="paginacontainer">
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
   </div>
-  <!--===== PROGRESS ENDS=======-->
+</div>
+<!--===== PROGRESS ENDS=======-->
 
   <!--=====HEADER START=======-->
   <header>
@@ -66,7 +71,7 @@
             <nav id="navbar-example2" class="navbar">
               <div class="header-elements">
                 <div class="site-logo">
-                  <a href="index-2.html"><img style="height: 50px; width: 110px;" src="assets/img/logo1.png" alt=""></a>
+                  <a href="index.html"><img style="height: 50px; width: 110px;" src="assets/img/logo1.png" alt=""></a>
                 </div>
                 <div class="main-menu">
                   <ul>
@@ -144,7 +149,7 @@
       <div class="col-12">
         <div class="mobile-header-elements">
           <div class="mobile-logo">
-            <a href="index-2.html"><img style="height: 50px; width: 110px;" src="assets/img/logo1.png" alt=""></a>
+            <a href="index.html"><img style="height: 50px; width: 110px;" src="assets/img/logo1.png" alt=""></a>
           </div>
           <div class="mobile-nav-icon dots-menu">
             <i class="fa-solid fa-bars"></i>
@@ -165,17 +170,17 @@
     </div>
     <div class="mobile-nav mobile-nav1">
       <ul class="mobile-nav-list nav-list1">
-        <li  class="nav-item"><a href="#" class="nav-link active">Home </a></li>
-        <li class="nav-item"><a href="#about" class="nav-link "><span>About</span></a></li>
-        <li class="nav-item"><a href="#service" class="nav-link"><span>Services</span></a></li>
-        <li class="nav-item"><a href="#testimonials" class="nav-link"><span>Testimonial</span></a></li>
-        <li class="nav-item"><a href="#team" class="nav-link"><span>Team</span></a></li>
-        <li class="nav-item"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+        <li  class="nav-item menux"><a href="#" class="nav-link active">Home </a></li>
+        <li class="nav-item menux"><a href="#about" class="nav-link "><span>About</span></a></li>
+        <li class="nav-item menux"><a href="#service" class="nav-link"><span>Services</span></a></li>
+        <li class="nav-item menux"><a href="#testimonials" class="nav-link"><span>Testimonial</span></a></li>
+        <li class="nav-item menux"><a href="#team" class="nav-link"><span>Team</span></a></li>
+        <li class="nav-item menux"><a href="#contact" class="nav-link"><span>Contact</span></a></li>
         
       </ul>
 
       <div class="allmobilesection mt-3">
-        <a href="contact.html" class="header-btn1 con-sty col-sm-4 col-md-5">Contact Us<span><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a href="contact.html" class="header-btn1 con-sty col-sm-4 col-md-5 menux">Contact Us<span><i class="fa-solid fa-arrow-right"></i></span></a>
         <div class="single-footer">
           <h3>Contact Info</h3>
           <div class="footer1-contact-info">
@@ -203,9 +208,9 @@
 
               <div class="social-links-mobile-menu">
                 <ul>
-                  <li><a href="https://www.facebook.com/profile.php?id=61562538486903"><i
+                  <li><a class="menux" href="https://www.facebook.com/profile.php?id=61562538486903"><i
                         class="fa-brands fa-facebook-f"></i></a></li>
-                  <li><a href="https://www.instagram.com/keraladigitalpark"><i class="fa-brands fa-instagram"></i></a>
+                  <li><a class="menux" href="https://www.instagram.com/keraladigitalpark"><i class="fa-brands fa-instagram"></i></a>
                   </li>
                 </ul>
               </div>
@@ -881,7 +886,7 @@
           <div class="row">
             <div class="col-lg-3">
               <div class="footer-logo-area">
-                <a href="index-2.html"><img style="height: 50px; width: 110px;" src="assets/img/logo1.png" alt=""></a>
+                <a href="index.html"><img style="height: 50px; width: 110px;" src="assets/img/logo1.png" alt=""></a>
                 <p class="fw-bold" style="font-size: 12px;">Kerala Digital Park is a leading hub for digital innovation
                   in Kerala, India. We foster creativity and growth for businesses with world-class infrastructure,
                   cutting-edge technology, and a supportive ecosystem for startups, SMEs, and established enterprises.
@@ -957,7 +962,34 @@
   <script src="assets/js/plugins/slick-slider.js"></script>
   <script src="assets/js/plugins/circle-progress.js"></script>
   <script src="assets/js/main.js"></script>
+<!-- Start of Async Drift Code -->
+<script>
+"use strict";
 
+!function() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('wzkxsz56svrp');
+</script>
+<!-- End of Async Drift Code -->
 </body>
 
 <!-- Mirrored from html.fleexstudio.com/seoc/single-index1.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 13 Aug 2024 08:30:40 GMT -->
